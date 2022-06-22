@@ -20,7 +20,7 @@
   
 Desenvolver uma Aplicação Web em Python com o framework Django e o Banco de Dados MySQL que permite fazer o cadastro e login dos clientes de uma Oficina Mecânica 
 <h3 align="center">Sistema de Login e Cadastro de Clientes de Oficina Mecânica</h3>
-Para acessar a parte CRUD da aplicação utiliza-se o caminho:  
+
 
 <h4> Pagina Inicial da Aplicação</h4>
 localhost:8000/ 
