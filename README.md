@@ -41,7 +41,6 @@ localhost:8000/dashboard
 <h4>Registrando Usuário</h4>
 Clicando em <b>Registrar Usuario </b><br>
 localhos:8000/create/<br>
-<b> Página de Cadastro</b>
 
 <img src="https://user-images.githubusercontent.com/65355088/175037396-28765a3b-8838-4ea9-a389-48b002f286a5.jpg" width=60%>
 
@@ -63,7 +62,7 @@ Permitida apenas para o perfil <b>admin</b>, onde fica a parte <b>CRUD </b>da Ap
 localhost:8000/administrador/index
 Exibe os Clientes cadastrados e permite operações de Cadastrar, Editar, Visualizar e Deletar clientes
 <img src="https://user-images.githubusercontent.com/65355088/175037264-79c9e426-c6d5-4bd9-a555-da2e8e6d9015.jpg" width=60%><br>
-* Cadastrando um novo Cliente (clicando no botão Cadastrar Cliente)
+<b>Cadastrando um novo Cliente</b> (botão Cadastrar Cliente)
 
 Abre-se o formulario para<b> inserção dos Dados Cadastrais do Cliente</b><br>
 localhost:8000/usuario/formulario<br>
