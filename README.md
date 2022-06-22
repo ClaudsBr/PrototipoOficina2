@@ -5,13 +5,13 @@
    
 ### Integrantes:  
   
-* Abraão 
+* Abraão Georger Halcsik
 * Adriana Aparecida de Souza Turetti        
 * Aline Souza Alves         
 * Andressa Aparecida Silva de Souza      
 * Claudio Oliveira dos Santos            
 * Rafael de Araújo Macedo   
-* Valdeir        
+* Valdeir Braz de Souza     
 * Vilma Maria do Nascimento         
   
   
@@ -118,8 +118,8 @@ CRUD em Python & Cadastro e Login com Python:
 
 
 <h3 align="left">E-Mail:</h3>
-* Claudio Oliveira dos Santos - <b>Email: 2009814@aluno.univesp.br</b>
-
+- Claudio Oliveira dos Santos - <b>Email: 2009814@aluno.univesp.br</b>
+- Aline Souza Alves - <b>Email: 2013591@aluno.univesp.br</b>
 
   
   
