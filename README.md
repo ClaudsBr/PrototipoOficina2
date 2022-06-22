@@ -122,7 +122,8 @@ localhost:8000/usuario/veiculo/
   
 CRUD em Python & Cadastro e Login com Python:
  <https://webdesignemfoco.com/cursos/python>
-
+<br>Documentação do Django:
+<https://docs.djangoproject.com/pt-br/4.0/>
 
 
 <h3 align="left">E-Mail:</h3>
