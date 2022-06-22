@@ -73,6 +73,11 @@ Usuário Registrado com Sucesso!<br>
 
 <h4> Acessando Area do Cliente</h4>
 Usuario Logado<br>
+
+ ```bash
+localhost:8000/dashboard/
+``` 
+
 <img src="https://user-images.githubusercontent.com/65355088/175037354-29edf173-998e-4ce0-820b-bfa43c8f4958.jpg" width=60%>
 
 <h4> Area Administrativa</h4>
@@ -81,7 +86,7 @@ Permitida apenas para o perfil <b>admin</b>, onde fica a parte <b>CRUD </b>da Ap
  ```bash
 localhost:8000/administrador/index
 ``` 
-Exibe os Clientes cadastrados e permite <b>operações de Cadastrar, Editar, Visualizar e Deletar</b> clientes
+Exibe os Clientes cadastrados e permite <b>operações de Cadastrar, Editar, Visualizar e Deletar</b> clientes<br>
 <img src="https://user-images.githubusercontent.com/65355088/175037264-79c9e426-c6d5-4bd9-a555-da2e8e6d9015.jpg" width=60%><br>
 <b>Cadastrando um novo Cliente</b> (botão Cadastrar Cliente)
 
