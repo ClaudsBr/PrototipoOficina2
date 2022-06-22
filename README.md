@@ -120,10 +120,10 @@ localhost:8000/usuario/veiculo/
   
 ## Referências:  
   
-CRUD em Python & Cadastro e Login com Python:
- <https://webdesignemfoco.com/cursos/python>
-<br>Documentação do Django:
-<https://docs.djangoproject.com/pt-br/4.0/>
+<a href="https://webdesignemfoco.com/cursos/python">CRUD em Python & Cadastro e Login com Python</a>
+ 
+<br><a href="https://docs.djangoproject.com/pt-br/4.0">Documentação do Django</a>
+
 
 
 <h3 align="left">E-Mail:</h3>
