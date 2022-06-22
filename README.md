@@ -118,14 +118,23 @@ localhost:8000/usuario/veiculo/
  
  <img src="https://user-images.githubusercontent.com/65355088/175037268-f35a3454-250e-48cf-ba70-2652cbec2ec7.jpg" width=60%><br>
  <br>
- <b>Vizualizando Dados Cliente</b> (botão Vizualizar)<br><br>
+ <h3><b> Editando Dados do Cliente</h3></b><br>
+ Antes da Edição<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175133094-9f42ac7f-8374-4e3d-ad7e-e5049ac28639.jpg" width=60%><br>
+ Formulario de Edição do Cliente Selecionado<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175135799-a3944ed8-c0a3-45ce-90eb-c474564d966f.jpg" width=60%><br>
+ Alterações feitas no Cadastro do Cliente<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175135804-bab8aa4e-88d1-472f-95c9-fae2244a50be.jpg" width=60%><br>
+ Dados modificados no Painel Administrativo
+ <img src="https://user-images.githubusercontent.com/65355088/175135806-fd031dfb-2584-4b08-8051-8d8b7f5fb360.jpg" width=60%><br>
+ <h3><b>Vizualizando Dados Cliente</b></h3> <br><br>
  <img src="https://user-images.githubusercontent.com/65355088/175037272-e5b878f0-1a39-47e0-9c9f-cdedfce10368.jpg" width=60%><br>
  <br>
- <b>Deletando Cliente</b> (botão Deletar)<br><br>
+ <h3><b>Deletando Cliente</b></h3> <br><br>
  Antes da Deleção<br>
  <img src="https://user-images.githubusercontent.com/65355088/175133088-b82a514d-05d8-43eb-b609-48e11bd154bc.jpg" width=60%><br>
  <br>
- Clicando no botão Deletar o Ajax emite um pop-up <br>
+ Clicando no botão Deletar o Ajax emite um pop-up de confirmação<br>
  <img src="https://user-images.githubusercontent.com/65355088/175133096-5a8c4a3f-b8e1-4f81-9138-a2758ef49342.jpg" width=60%><br>
  <br>
  Após confirmar a deleção do Cliente<br>
