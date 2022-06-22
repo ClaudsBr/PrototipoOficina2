@@ -117,6 +117,19 @@ localhost:8000/usuario/veiculo/
  Apos preencher os dados do Veiculo será redirecionado à Area Administrativa com o novo usuario inserido
  
  <img src="https://user-images.githubusercontent.com/65355088/175037268-f35a3454-250e-48cf-ba70-2652cbec2ec7.jpg" width=60%><br>
+ <br>
+ <b>Vizualizando Dados Cliente</b> (botão Vizualizar)<br><br>
+ <img src="https://user-images.githubusercontent.com/65355088/175037272-e5b878f0-1a39-47e0-9c9f-cdedfce10368.jpg" width=60%><br>
+ <br>
+ <b>Deletando Cliente</b> (botão Deletar)<br><br>
+ Antes da Deleção<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175133088-b82a514d-05d8-43eb-b609-48e11bd154bc.jpg" width=60%><br>
+ <br>
+ Clicando no botão Deletar o Ajax emite um pop-up <br>
+ <img src="https://user-images.githubusercontent.com/65355088/175133096-5a8c4a3f-b8e1-4f81-9138-a2758ef49342.jpg" width=60%><br>
+ <br>
+ Após confirmar a deleção do Cliente<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175133094-9f42ac7f-8374-4e3d-ad7e-e5049ac28639.jpg" width=60%><br>
   
 ## Referências:  
   
