@@ -26,6 +26,12 @@ Desenvolver uma Aplicação Web em Python com o framework Django e o Banco de Da
 <h4> Pagina Inicial da Aplicação</h4>
 
 localhost:8000/
+```bash
+localhost:8000/
+``` 
+```bash
+localhost:8000/
+``` 
 
 <img src="https://user-images.githubusercontent.com/65355088/175037385-5817b03b-ca2c-4bcd-b1f8-e847f0d61157.jpg" width=60%>
 <img src="https://user-images.githubusercontent.com/65355088/175037386-bb24f657-70c4-4f9b-804e-e12d47fe5ad7.jpg" width=60%>
