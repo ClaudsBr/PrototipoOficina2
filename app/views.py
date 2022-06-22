@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from app.forms import ClienteForm, EnderecoForm, VeiculoForm
 from app.models import Cliente, Veiculo, Endereco
+from django.core.paginator import Paginator
 
 # Create your views here.
 def home(request):
@@ -62,8 +63,16 @@ def changePassword(request):
 
 def administrador(request):
     data = {}
-    data['cli'] = Cliente.objects.all()
-    data['vei'] = Veiculo.objects.all()
+    #data['cli'] = Cliente.objects.all()
+    search = request.GET.get('search')
+    if search:
+        data['cli'] = Cliente.objects.filter(nome__icontains=search)
+    else:
+        data['cli'] = Cliente.objects.all()
+    #all = Cliente.objects.all()
+    #paginator = Paginator(all, 2)
+    #pages = request.GET.get('page')
+    #data['cli'] = paginator.get_page(pages)
     return render(request, 'administrador/index.html', data)
 
 def usuario(request):
@@ -156,3 +165,12 @@ def updateVeiculo(request, pk):
     if form.is_valid():
         form.save()
         return redirect('admin')
+
+def deleteCliente(request, pk):
+    cliente = Cliente.objects.get(pk=pk)
+    endereco = Endereco.objects.get(pk=pk)
+    veiculo = Veiculo.objects.get(pk=pk)
+    cliente.delete()
+    endereco.delete()
+    veiculo.delete()
+    return redirect('admin')

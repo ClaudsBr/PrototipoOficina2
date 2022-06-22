@@ -14,7 +14,11 @@
     </div>
     <div class="col-8 m-auto pt-2 pb-2 text-center">
         <a href="/usuario/formulario" class="btn btn-secondary" > Cadastrar Cliente</a>
-
+    </div>
+    <div class="col-8 m-auto pt-3 pb-2 text-center">
+        <form method="GET">
+            <input type="text" id="search" name="search" class="form-control" placeholder="Buscar">
+        </form>
     </div>
     <table class="table table-striped">
   <thead class="thead-dark">
@@ -40,7 +44,7 @@
         <td>
             <a href="/usuario/editCliente/{{c.id}}/" class="btn btn-primary">Editar </a>
             <a href="/usuario/view/{{c.id}}/" class="btn btn-dark">Visualizar</a>
-            <a href="" class="btn btn-danger">Deletar</a>
+            <a href="/usuario/deleteCliente/{{c.id}}/" class="btn btn-danger btnDel">Deletar</a>
         </td>
       </tr>
 
@@ -48,6 +52,20 @@
 
   </tbody>
 </table>
+    <!--
+    <div class="pagination">
+        {% if cli.has_previous %}
+            <a href="?page={{cli.previous_page_number}}"> < </a>
+        {% endif %}
 
+        {{ cli.number}}
+
+        {% if cli.has_next %}
+            <a href="?page={{cli.next_page_number}}"> > </a>
+        {% endif %}
+    -->
+    </div>
+{% load static %}
+<script src="{% static 'js/javascript.js' %}"></script>
 </body>
 </html>
