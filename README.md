@@ -55,7 +55,9 @@ localhost:8000/dashboard/
 Clicando em <b>Registrar Usuario </b><br>
 
 localhost:8000/create/
-
+ ```bash
+localhost:8000/create/
+``` 
 
 
 <img src="https://user-images.githubusercontent.com/65355088/175037396-28765a3b-8838-4ea9-a389-48b002f286a5.jpg" width=60%>
