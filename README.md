@@ -152,11 +152,13 @@ localhost:8000/usuario/veiculo/
 
 
 
-<h3 align="left">E-Mail:</h3>
-- Claudio Oliveira dos Santos - <b>Email: 2009814@aluno.univesp.br</b><br>
-- Aline Souza Alves - <b>Email: 2013591@aluno.univesp.br</b>
+<h3 align="left">Contatos:</h3>
 
-  
+  * Abraão George Halcsik - <b>Email: 2005323@aluno.univesp.br</b><br>
+* Adriana Aparecida de Souza Turetti - <b>Email: 2001824@aluno.univesp.br</b><br>
+* Aline Souza Alves - <b>Email: 2013591@aluno.univesp.br</b><br>
+* Claudio Oliveira dos Santos - <b>Email: 2009814@aluno.univesp.br</b><br>
+* Valdeir Braz de Souza - <b>Email: 2015625@aluno.univesp.br</b><br>
   
   
   
