@@ -121,8 +121,12 @@ localhost:8000/usuario/veiculo/
 ## Referências:  
   
 <a href="https://webdesignemfoco.com/cursos/python">CRUD em Python & Cadastro e Login com Python</a>
- 
-<br><a href="https://docs.djangoproject.com/pt-br/4.0">Documentação do Django</a>
+<a href="https://docs.python.org/pt-br/3.8/contents.html">Documentação do Python 3.8</a>
+<a href="https://docs.djangoproject.com/pt-br/4.0">Documentação do Django Framework</a>
+<a href="https://getbootstrap.com.br/docs/4.1/getting-started/introduction/">Documentação do Bootstrap</a>
+<a href="https://www.devmedia.com.br/exemplo/documentacao-de-css/56">Documentação do CSS</a>
+
+
 
 
 
