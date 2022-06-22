@@ -42,46 +42,53 @@ localhost:8000/dashboard
 * Clicando em Registrar Usuario 
 Pagina de Cadastro
 localhos:8000/create/
+
 <img src="https://user-images.githubusercontent.com/65355088/175037396-28765a3b-8838-4ea9-a389-48b002f286a5.jpg" width=60%>
-Preenchendo os Campos
+
+Preenchendo os Campos<br>
 <img src="https://user-images.githubusercontent.com/65355088/175037399-e20a30be-8b87-44dc-a0f7-de59d3d1d4b0.jpg" width=60%>
-Usuário Registrado com Sucesso!
+
+Usuário Registrado com Sucesso!<br>
 <img src="https://user-images.githubusercontent.com/65355088/175037397-3939f1a4-13d7-4bb9-9fa8-5b6de12e40a8.jpg" width=60%>
 
-<h4> Efetuando Login</h4>
+<h4> Efetuando Login</h4><br>
 <img src="https://user-images.githubusercontent.com/65355088/175037394-38f2d8aa-049e-4781-a0b9-0269f6a0b9ca.jpg" width=60%>
 
 <h4> Acessando Area do Cliente</h4>
-Usuario Logado
+Usuario Logado<br>
 <img src="https://user-images.githubusercontent.com/65355088/175037354-29edf173-998e-4ce0-820b-bfa43c8f4958.jpg" width=60%>
 
 <h4> Area Administrativa</h4>
 Permitida apenas para o perfil <b>admin</b>, onde fica a parte <b>CRUD </b>da Aplicação
 localhost:8000/administrador/index
 Exibe os Clientes cadastrados e permite operações de Cadastrar, Editar, Visualizar e Deletar clientes
-<img src="https://user-images.githubusercontent.com/65355088/175037264-79c9e426-c6d5-4bd9-a555-da2e8e6d9015.jpg" width=60%>
+<img src="https://user-images.githubusercontent.com/65355088/175037264-79c9e426-c6d5-4bd9-a555-da2e8e6d9015.jpg" width=60%><br>
 * Cadastrando um novo Cliente (clicando no botão Cadastrar Cliente)
 
 Abre-se o formulario para inserção dos Dados Cadastrais do CLiente
 localhost:8000/usuario/formulario
-<img src="https://user-images.githubusercontent.com/65355088/175037367-3aca4731-40f4-4d44-8b05-ddfafdd73f99.jpg" width=60%>
-<img src="" width=60%>
- Preenchendo os Campos
- <img src="" width=60%>
+<img src="https://user-images.githubusercontent.com/65355088/175037367-3aca4731-40f4-4d44-8b05-ddfafdd73f99.jpg" width=60%><br>
+
+ Preenchendo os Campos<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175037370-b8beedb7-cbb6-40c1-bd36-19869157c51d.jpg" width=60%><br>
+ 
  Apos Salvar os Dados do Cliente irá se abrir o formulario para preenchimento do Endereço do CLiente
  localhost:8000/usuario/endereco
- <img src="" width=60%>
-  Preenchendo os campos
-  <img src="" width=60%>
- Apos a inserção do Endereço irá se abrir o formulario para preenchimento dos dados do Veiculo
+ <img src="https://user-images.githubusercontent.com/65355088/175037371-4cbb39e6-dd66-4f2d-aaa4-f637928ea380.jpg" width=60%><br>
+ 
+  Preenchendo os campos<br>
+  <img src="https://user-images.githubusercontent.com/65355088/175037374-ef988b25-1ac0-47bd-b4b2-56475c8e5d3e.jpg" width=60%><br>
+  
+ Apos a inserção do Endereço irá se abrir o formulario para preenchimento dos dados do Veiculo<br>
  localhost:8000/usuario/veiculo
- <img src="" width=60%>
- Preenchendo os campos
- <img src="" width=60%>
+ 
+ <img src="https://user-images.githubusercontent.com/65355088/175037378-cc56fd55-6953-4fbf-b2c7-2757db01e6da.jpg" width=60%><br>
+ Preenchendo os campos<br>
+ <img src="https://user-images.githubusercontent.com/65355088/175037382-dc74c202-738a-4376-bac4-7863a7969240.jpg" width=60%><br>
  
  Apos preencher os dados do Veiculo será redirecionado à Area Administrativa com o novo usuario inserido
  
- <img src="" width=60%>
+ <img src="https://user-images.githubusercontent.com/65355088/175037268-f35a3454-250e-48cf-ba70-2652cbec2ec7.jpg" width=60%><br>
   
 ## Referências:  
   
