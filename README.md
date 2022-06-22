@@ -27,7 +27,7 @@ Desenvolver uma Aplicação Web em Python com o framework Django e o Banco de Da
 
 
 
-``` 
+
 ```bash
 localhost:8000/
 ``` 
