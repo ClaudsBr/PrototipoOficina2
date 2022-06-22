@@ -1,0 +1,12 @@
+body{
+    background: black;
+    text-align: center;
+    font-color: white;
+    font-size: 20px;
+}
+.cabecalho{
+    width=100%;  padding: 3% ;
+    font-color: darkgray;
+    font-size: 15px;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Area Administrativa</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <h1> Area Administrativa</h1>
+
+    </div>
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <a href="/usuario/formulario" class="btn btn-secondary" > Cadastrar Cliente</a>
+
+    </div>
+    <table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">E-Mail</th>
+      <th scope="col">Telefone</th>
+
+        <th scope="col">Ações</th>
+
+    </tr>
+  </thead>
+  <tbody>
+  {% for c in cli %}
+
+    <tr>
+      <th>{{c.id}}</th>
+      <td>{{c.nome}}</td>
+      <td>{{c.email}}</td>
+      <td> {{c.telefone}}</td>
+
+        <td>
+            <a href="/usuario/editCliente/{{c.id}}/" class="btn btn-primary">Editar </a>
+            <a href="/usuario/view/{{c.id}}/" class="btn btn-dark">Visualizar</a>
+            <a href="" class="btn btn-danger">Deletar</a>
+        </td>
+      </tr>
+
+  {% endfor %}
+
+  </tbody>
+</table>
+
+</body>
+</html>

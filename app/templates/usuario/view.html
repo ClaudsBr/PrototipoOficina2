@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <div align="center">
+        <h1> Dados do Cliente</h1>
+    </div>
+
+
+    <div class="m-auto pt-4 pb-2 text-center">
+        <strong> Nome: </strong>{{db.nome}}<br>
+        <strong> CPF: </strong>{{db.cpf}}<br>
+        <strong> RG: </strong>{{db.rg}}<br>
+        <strong> Data de Nascimento: </strong>{{db.data_nasc}}<br>
+        <strong> Telefone: </strong>{{db.telefone}}<br>
+        <strong> E-Mail: </strong>{{db.email}}<br><br>
+        <h3> Endereço</h3><br>
+         <strong> Logradouro: </strong>{{end.rua}},  {{end.numero}} - {{end.bairro}} - {{end.cidade}}-SP<br><br>
+        <h3> Veículo</h3><br>
+         {{vei.marca}} -  {{vei.modelo}}, {{vei.ano}} <br>
+        <b> Cor:</b> {{vei.cor}} - <b>Placa:</b> {{vei.placa}}<br><br>
+        <a href="/administrador/index" class="btn btn-info" text-center> Voltar</a>
+    </div>
+
+

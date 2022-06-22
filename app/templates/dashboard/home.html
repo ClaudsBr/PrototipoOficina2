@@ -1,0 +1,19 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+    {% if request.user.is_authenticated %}
+        <h1> Area do Cliente </h1><br>
+        <h3> Aqui você tem acesso aos nossos melhores serviços</h3><br>
+        <img src="{% static 'img/servico.jpg' %}" width="600"><br><br>
+        <button class="btn btn-success">Agendar Serviço</button>
+        <button class="btn btn-secondary">Alterar Dados Cadastrais</button>
+        <button class="btn btn-info"> Cadastrar Cliente </button>
+
+    {% else %}
+        <h1>Acesso não permitido</h1>
+        <img src="{% static 'img/alerta.png' %}"  width="600"><br><br>
+
+    {% endif %}
+
+{% endblock %}

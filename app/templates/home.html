@@ -1,0 +1,52 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<h4> Conheça a melhor Oficina Mecânica de Itapevi e Região</h4>
+
+<div class="container">
+  <img src="{% static 'img/logo.jpg' %}" width="500" >
+
+
+
+
+</div>
+<div>
+  Inaugurada no dia 15/09/2020 a <b>Oficina N7</b> tem buscado sempre a satisfação de seus clientes<br>
+  fornecendo serviços de alta qualidade com pagamento facilitado, aqui você terá serviços como:<br>
+  <br><img src="{% static 'img/oleo.jpeg' %}"  width="800"><br><br>
+  - Reparos Automotivos<br>
+  - Trocas de óleo<br>
+  - Alinhamento e Balanceamento<br>
+  - Manutenção de Embreagem<br>
+  - Revisão dos Componentes de freio<br>
+  - Checagem do Nível de Água no Radiador<br>
+  - Atendimento Personalizado<br>
+  - Garantia do Serviço <br><br>
+
+  <b>Faça Logo seu Cadastro e venha conhecer a melhor oficina mecanica de Itapevi e Região!!!</b><br>
+  <img src="{% static 'img/equipe.jpg' %}" width="550"  >
+
+<img src="{% static 'img/foto.jpg' %}" width="390" >
+</div>
+
+<div>
+  <b>Endereço:</b><br>
+  Rua César Bertozzi, 18, Vila Santa Rita Itapevi/SP - CEP 06660-020
+  <br><b>Telefone</b><br>
+(11) 3726-2131<br>
+(11) 7563-3617
+<br><b>E-Mail</b><br>
+oficinan7@hotmail.com<br>
+<br><b>Horário de Funcionamento</b><br>
+Segunda à Sexta: das 8:00 às 18:00<br><br>
+  <b>Localização</b>
+</div>
+
+<img src="{% static 'img/local.jpg' %}" { justify-content: center} >
+
+<h3>  Para fazer seu Cadastro clique no botão</h3>
+<a { justify-content: center} class="btn btn-success" href="/create/">Cadastrar</a>
+  {% endblock %}
