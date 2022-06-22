@@ -54,7 +54,7 @@ localhost:8000/dashboard/
 <h4>Registrando Usuário</h4>
 Clicando em <b>Registrar Usuario </b><br>
 
-localhost:8000/create/
+
  ```bash
 localhost:8000/create/
 ``` 
