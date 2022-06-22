@@ -29,19 +29,19 @@ localhost:8000/
 <img src="https://user-images.githubusercontent.com/65355088/175037389-81807a1c-21dc-42df-b3af-6435f4277286.jpg" width=60%>
 <img src="https://user-images.githubusercontent.com/65355088/175037391-2b093e05-3a5e-4731-9596-313ba7f9d8bf.jpg" width=60%>
 
-* Clicando em Fale Conosco 
+* Clicando em <b>Fale Conosco </b><br>
 localhost:8000/contato
 <img src="https://user-images.githubusercontent.com/65355088/175037359-b0f4a0c2-44c5-4eb2-ba8a-619cc2162094.jpg" width=60%>
 <img src="https://user-images.githubusercontent.com/65355088/175037362-85b01eec-0a56-4781-a61f-e2c3fd88ffab.jpg" width=60%>
 
-* Clicando em Area do Cliente (Acesso Não permitido sem efetuar login)
+* Clicando em <b>Area do Cliente </b>(Acesso Não permitido sem efetuar login)<br>
 localhost:8000/dashboard
 <img src="https://user-images.githubusercontent.com/65355088/175037274-9e2537fd-f0d5-4672-850c-62967cbb5283.jpg" width=60%>
 
 <h4>Registrando Usuário</h4>
-* Clicando em Registrar Usuario 
-Pagina de Cadastro
-localhos:8000/create/
+Clicando em <b>Registrar Usuario </b><br>
+localhos:8000/create/<br>
+<b> Página de Cadastro</b>
 
 <img src="https://user-images.githubusercontent.com/65355088/175037396-28765a3b-8838-4ea9-a389-48b002f286a5.jpg" width=60%>
 
@@ -65,24 +65,25 @@ Exibe os Clientes cadastrados e permite operações de Cadastrar, Editar, Visual
 <img src="https://user-images.githubusercontent.com/65355088/175037264-79c9e426-c6d5-4bd9-a555-da2e8e6d9015.jpg" width=60%><br>
 * Cadastrando um novo Cliente (clicando no botão Cadastrar Cliente)
 
-Abre-se o formulario para inserção dos Dados Cadastrais do CLiente
-localhost:8000/usuario/formulario
+Abre-se o formulario para<b> inserção dos Dados Cadastrais do Cliente</b><br>
+localhost:8000/usuario/formulario<br>
 <img src="https://user-images.githubusercontent.com/65355088/175037367-3aca4731-40f4-4d44-8b05-ddfafdd73f99.jpg" width=60%><br>
 
  Preenchendo os Campos<br>
  <img src="https://user-images.githubusercontent.com/65355088/175037370-b8beedb7-cbb6-40c1-bd36-19869157c51d.jpg" width=60%><br>
  
- Apos Salvar os Dados do Cliente irá se abrir o formulario para preenchimento do Endereço do CLiente
- localhost:8000/usuario/endereco
+ Apos Salvar os Dados do Cliente irá se abrir o formulario para <b>preenchimento do Endereço </b>do Cliente<br>
+ localhost:8000/usuario/endereco<br>
  <img src="https://user-images.githubusercontent.com/65355088/175037371-4cbb39e6-dd66-4f2d-aaa4-f637928ea380.jpg" width=60%><br>
  
   Preenchendo os campos<br>
   <img src="https://user-images.githubusercontent.com/65355088/175037374-ef988b25-1ac0-47bd-b4b2-56475c8e5d3e.jpg" width=60%><br>
   
- Apos a inserção do Endereço irá se abrir o formulario para preenchimento dos dados do Veiculo<br>
- localhost:8000/usuario/veiculo
+ Apos a inserção do Endereço irá se abrir o formulario para <b>preenchimento dos dados do Veiculo</b><br>
+ localhost:8000/usuario/veiculo<br>
  
  <img src="https://user-images.githubusercontent.com/65355088/175037378-cc56fd55-6953-4fbf-b2c7-2757db01e6da.jpg" width=60%><br>
+ 
  Preenchendo os campos<br>
  <img src="https://user-images.githubusercontent.com/65355088/175037382-dc74c202-738a-4376-bac4-7863a7969240.jpg" width=60%><br>
  
