@@ -1,0 +1,7 @@
+asgiref==3.5.2
+backports.zoneinfo==0.2.1
+Django==4.0.5
+django-cors-headers==3.13.0
+mysqlclient @ file:///C:/Users/coot/OneDrive%20-%20GFT%20Technologies%20SE/Documents/OficinaPython/mysqlclient-1.4.6-cp38-cp38-win_amd64.whl
+sqlparse==0.4.2
+tzdata==2022.1

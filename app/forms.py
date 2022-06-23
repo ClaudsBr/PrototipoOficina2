@@ -16,9 +16,8 @@ class VeiculoForm(ModelForm):
         model = Veiculo
         fields = ['modelo', 'marca', 'ano', 'cor', 'placa']
 
-'''
+
 class AgendamentoForm(ModelForm):
     class Meta:
         model = Agendamento
         fields = ['data_insp', 'horario', 'descricao']
-'''

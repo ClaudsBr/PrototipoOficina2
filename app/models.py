@@ -43,7 +43,6 @@ class Agendamento(models.Model):
         (17, '17:00'),
         (18, '18:00'),
     ]
-
     data_insp = models.DateField('Data da Inspeção')
     horario = models.IntegerField('Horario da Inspeção', choices=HORARIO_CHOICES)
     descricao = models.TextField('Descrição do Problema')

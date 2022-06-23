@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from app.forms import ClienteForm, EnderecoForm, VeiculoForm
+from app.forms import ClienteForm, EnderecoForm, VeiculoForm, AgendamentoForm
 from app.models import Cliente, Veiculo, Endereco
 from django.core.paginator import Paginator
 
@@ -178,11 +178,3 @@ def deleteCliente(request, pk):
     endereco.delete()
     veiculo.delete()
     return redirect('admin')
-'''
-def agendar(request, pk):
-    form = AgendamentoForm(request.POST or None)
-    if form.is_valid:
-        form.save()
-        return redirect( 'agenda')
-
-'''

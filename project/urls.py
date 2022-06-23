@@ -47,7 +47,4 @@ urlpatterns = [
     path('senha/', senha),
     path('changePassword/', changePassword),
     path('administrador/', administrador),
-    #path('agenda/', agendar, name='agenda')
-
-
 ]
