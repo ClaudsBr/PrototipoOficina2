@@ -44,7 +44,6 @@ class Agendamento(models.Model):
         (18, '18:00'),
     ]
 
-    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     data_insp = models.DateField('Data da Inspeção')
     horario = models.IntegerField('Horario da Inspeção', choices=HORARIO_CHOICES)
     descricao = models.TextField('Descrição do Problema')

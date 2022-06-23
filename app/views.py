@@ -178,3 +178,11 @@ def deleteCliente(request, pk):
     endereco.delete()
     veiculo.delete()
     return redirect('admin')
+'''
+def agendar(request, pk):
+    form = AgendamentoForm(request.POST or None)
+    if form.is_valid:
+        form.save()
+        return redirect( 'agenda')
+
+'''

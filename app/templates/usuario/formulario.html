@@ -13,7 +13,7 @@
 
 
     <div class="m-auto pt-4 pb-2 text-center">
-        <form  name="form-cliente" id="form-cliente" action="{% if cli %}/updateCliente/{{cli.id}}/{% else %}/criarCliente/{% endif %}" method="POST">
+        <form  class="form-control" name="form-cliente" id="form-cliente" action="{% if cli %}/updateCliente/{{cli.id}}/{% else %}/criarCliente/{% endif %}" method="POST">
             {% csrf_token %}
             <div class="form-group mt-4"><b> Nome Completo <br> {{cliente.nome}} </div>
             <div class="form-group mt-4">CPF (XXX.XXX.XXX-XX)<br>  {{cliente.cpf}}</div>

@@ -46,7 +46,8 @@ urlpatterns = [
     path('usuario/deleteCliente/<int:pk>/', deleteCliente, name='deleteCliente'),
     path('senha/', senha),
     path('changePassword/', changePassword),
-    path('administrador/', administrador)
+    path('administrador/', administrador),
+    #path('agenda/', agendar, name='agenda')
 
 
 ]
