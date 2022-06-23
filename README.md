@@ -21,8 +21,60 @@
   
 Desenvolver uma Aplicação Web em Python com o framework Django e o Banco de Dados MySQL que permite fazer o cadastro e login dos clientes de uma Oficina Mecânica 
 <h3 align="center">Sistema de Login e Cadastro de Clientes de Oficina Mecânica</h3>
+<b> Rodando a Aplicação</b>
+
+* Instalar a versão 3.8 do Python<br>
+* Abrir o cmd na pasta de destino e clonar o projeto no GitHub através do comando:
 
 
+```bash
+git clone https://github.com/ClaudsBr/PythonOficina.git
+``` 
+
+* Instalar o <a href="https://www.wampserver.com/en/download-wampserver-64bits">Wampserver</a> <br>
+* Abrir o WampServer
+* Quando o ícone estiver verde acessar a url:
+
+```bash
+http://www.localhost/phpmyadmin/
+```
+
+* Na pagina inicial digite uma senha (opcional) para o Utilizador <b>root</b> e clique em Executar
+
+<img src="https://user-images.githubusercontent.com/65355088/175298995-fde18c2c-9169-4cd4-a7fd-9288c6b8656e.jpg" width=70%><br>
+
+* Clicar em novo e criar um schema com o nome <b> banco</b> utilizando a opção<b> utf8_general_ci </b>
+
+<img src="https://user-images.githubusercontent.com/65355088/175299002-4d1be5e8-2211-4a28-8190-9b37a46feca7.jpg" width=70%><br>
+                                                                                                               
+* Abrir terminal na pasta do projeto e executar o comando:  
+                                                                                                               
+```bash
+pip install django
+```
+* Em seguida executar o comando para instalar as dependencias do MySQL na aplicação:  
+                                                                                                               
+```bash
+pip install mysqlclient-1.4.6-cp38-cp38-win_amd64.whl
+```
+* Em seguida executar o comando para criar as tabelas no banco de dados da aplicação:  
+                                                                                                               
+```bash
+python manage.py migrate
+```
+* Para rodar a Aplicação use o comando:
+
+```bash
+python manage.py runserver
+```
+
+* criar um perfil de Superusuário atraves do comando:
+
+```bash
+python manage.py createsuperuser
+```
+
+<h4>
 <h4> Pagina Inicial da Aplicação</h4>
 
 
@@ -170,4 +222,6 @@ localhost:8000/usuario/veiculo/
   
   
 <h3 align="left">Linguagens e Ferramentas:</h3>  
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/353657/django-icon.svg" alt="django" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/353657/django-icon.svg" alt="django" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </a> <a href="https://www.jetbrains.com/pt-br/pycharm/download/#section=windows" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/65355088/175295985-877d9f39-cbc9-4a53-8ccf-2f2023f99dc6.svg" alt="python" width="40" height="40"/> </a>
+<a href="https://www.wampserver.com/en/download-wampserver-64bits/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/WampServer-logo.svg/512px-WampServer-logo.svg.png?20170917212252" alt="python" width="40" height="40"/> </a>
+</p>
