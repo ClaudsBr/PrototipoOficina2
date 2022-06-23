@@ -62,16 +62,18 @@ pip install mysqlclient-1.4.6-cp38-cp38-win_amd64.whl
 ```bash
 python manage.py migrate
 ```
+
+
+* Criar um perfil de Superusuário (acesso admin) atraves do comando:
+
+```bash
+python manage.py createsuperuser
+```
+
 * Para rodar a Aplicação use o comando:
 
 ```bash
 python manage.py runserver
-```
-
-* criar um perfil de Superusuário atraves do comando:
-
-```bash
-python manage.py createsuperuser
 ```
 
 <h4>
