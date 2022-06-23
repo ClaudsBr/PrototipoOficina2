@@ -51,15 +51,18 @@ def deslogar(request):
     logout(request)
     return redirect('/painel/')
 
-'''
+
 #Alterar Senha
+def senha(request):
+    return render(request,'senha.html')
+
 def changePassword(request):
     user = User.objects.get(email=request.user.email)
-    user.set_password(request.POST['newpassword'])
+    user.set_password(request.POST['password'])
     user.save()
     logout(request)
     return redirect('/painel/')
-'''
+
 
 def administrador(request):
     data = {}
