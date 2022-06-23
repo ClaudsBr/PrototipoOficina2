@@ -97,7 +97,8 @@ localhost:8000/dashboard/
 <img src="https://user-images.githubusercontent.com/65355088/175037274-9e2537fd-f0d5-4672-850c-62967cbb5283.jpg" width=60%>
 
 <h4>Registrando Usuário</h4>
-Clicando em <b>Registrar Usuario </b><br>
+
+* Clicando em <b>Registrar Usuario </b><br>
 
 
  ```bash
