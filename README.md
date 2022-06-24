@@ -39,7 +39,7 @@ git clone https://github.com/ClaudsBr/PythonOficina.git
 http://www.localhost/phpmyadmin/
 ```
 
-* Na pagina inicial digite uma senha (opcional) para o Utilizador <b>root</b> e clique em Executar
+* Na pagina inicial com o Utilizador <b>root</b> e clique em Executar (sem senha)
 
 <img src="https://user-images.githubusercontent.com/65355088/175298995-fde18c2c-9169-4cd4-a7fd-9288c6b8656e.jpg" width=70%><br>
 
