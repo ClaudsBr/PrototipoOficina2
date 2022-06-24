@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'heroku_d1c544606924283',
-        'HOST': 'us-cdbr-east-05.cleardb.net',
-        'USER': 'b36e9eec126ccd',
-        'PASSWORD': 'b6316ac8',
+        'NAME': 'banco',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': '',
         'PORT': '3306',
         'OPTIONS': {
             'init_command': 'SET default_storage_engine=InnoDB'
