@@ -212,7 +212,7 @@ localhost:8000/usuario/veiculo/
 * Claudio Oliveira dos Santos - <b>Email: 2009814@aluno.univesp.br</b><br>
 * Rafael de Araújo Macedo - <b>Email: 2008700@aluno.univesp.br</b><br>
 * Valdeir Braz de Souza - <b>Email: 2015625@aluno.univesp.br</b><br>
-* Vilma  Maria do Nascimento - <b>Email: @aluno.univesp.br</b><br>
+* Vilma  Maria do Nascimento - <b>Email: 2004978@aluno.univesp.br</b><br>
   
   
 <h3 align="left">Linguagens e Ferramentas:</h3>  
